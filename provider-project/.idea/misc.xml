@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://D:/MyDownloads/Download/dubbo-master/dubbo-admin" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-admin/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-cluster/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-common/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-config/dubbo-config-api/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-config/dubbo-config-spring/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-config/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-container/dubbo-container-api/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-container/dubbo-container-jetty/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-container/dubbo-container-log4j/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-container/dubbo-container-logback/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-container/dubbo-container-spring/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-container/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-demo/dubbo-demo-api/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-demo/dubbo-demo-consumer/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-demo/dubbo-demo-provider/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-demo/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-filter/dubbo-filter-cache/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-filter/dubbo-filter-validation/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-filter/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-monitor/dubbo-monitor-api/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-monitor/dubbo-monitor-default/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-monitor/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-plugin/dubbo-qos/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-plugin/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-registry/dubbo-registry-api/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-registry/dubbo-registry-default/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-registry/dubbo-registry-multicast/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-registry/dubbo-registry-redis/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-registry/dubbo-registry-zookeeper/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-registry/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-remoting/dubbo-remoting-api/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-remoting/dubbo-remoting-grizzly/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-remoting/dubbo-remoting-http/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-remoting/dubbo-remoting-mina/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-remoting/dubbo-remoting-netty/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-remoting/dubbo-remoting-netty4/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-remoting/dubbo-remoting-p2p/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-remoting/dubbo-remoting-zookeeper/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-remoting/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-api/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-default/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-hessian/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-http/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-injvm/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-memcached/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-redis/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-rmi/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-thrift/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/dubbo-rpc-webservice/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-rpc/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-simple/dubbo-monitor-simple/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-simple/dubbo-registry-simple/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-simple/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-test/dubbo-test-benchmark/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-test/dubbo-test-compatibility/dubbo-test-spring3/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-test/dubbo-test-compatibility/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-test/dubbo-test-examples/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-test/dubbo-test-integration/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo-test/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/dubbo/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/hessian-lite/pom.xml" />
+        <option value="D:/MyDownloads/Download/dubbo-master/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

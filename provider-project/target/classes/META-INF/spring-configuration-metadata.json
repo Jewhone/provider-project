@@ -1,0 +1,59 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESClusterConfig",
+      "name": "elasticsearch",
+      "type": "com.zhp.jewhone.core.elasticsearch.ESClusterConfig"
+    },
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESIndexNameConfig",
+      "name": "spring.data.elasticsearch.properties.index.name.config",
+      "type": "com.zhp.jewhone.core.elasticsearch.ESIndexNameConfig"
+    },
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESIndexNameConfig",
+      "name": "spring.data.elasticsearch.properties.index.name.config.db",
+      "sourceMethod": "getDb()",
+      "type": "com.zhp.jewhone.core.elasticsearch.ESIndexNameConfig$Db"
+    },
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESIndexNameConfig",
+      "name": "spring.data.elasticsearch.properties.index.name.config.type",
+      "type": "com.zhp.jewhone.core.elasticsearch.ESIndexNameConfig$Type"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESClusterConfig",
+      "name": "elasticsearch.cluster-host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESClusterConfig",
+      "name": "elasticsearch.cluster-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESClusterConfig",
+      "defaultValue": 0,
+      "name": "elasticsearch.cluster-port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESClusterConfig",
+      "name": "elasticsearch.es-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESClusterConfig",
+      "name": "elasticsearch.es-username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.zhp.jewhone.core.elasticsearch.ESIndexNameConfig",
+      "name": "spring.data.elasticsearch.properties.index.name.config.index",
+      "type": "java.lang.String"
+    }
+  ]
+}

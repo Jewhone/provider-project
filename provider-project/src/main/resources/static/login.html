@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <title>Jewhone 个人平台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="application/json; charset=utf-8"/>
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all"/>
+</head>
+<body>
+<h1>Welcome To Home</h1>
+<div class="login_body">
+    <ul class="tab-group cl-effect-4">
+        <li class="tab active"><a href="#signin-agile">Sign In</a></li>
+        <li class="tab"><a href="#signup-agile">Join Us</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="signin-agile">
+            <form action="#" method="post" onsubmit="return false">
+
+                <p class="header">User Name</p>
+                <input type="text" name="account" class="account" placeholder="请输入用户名"/>
+                <p class="header">Password</p>
+                <input type="password" name="password" class="password" placeholder="请输入密码"/>
+
+                <p class="form-message"></p>
+                <input type="submit" class="sign-in" value="Sign In"/>
+            </form>
+        </div>
+        <div id="signup-agile">
+            <form action="#" method="post" onsubmit="return false">
+                <p class="header">User Name</p>
+                <input type="text" name="user" class="register-name" placeholder="请输入用户名"/>
+
+                <p class="header">Phone</p>
+                <input type="tel" name="phone" class="register-phone" placeholder="请输入电话号码"/>
+
+                <p class="header">Email Address</p>
+                <input type="email" name="email" class="register-email" placeholder="请输入邮箱地址"/>
+
+                <p class="header">Password</p>
+                <input type="password" name="password" class="register-password" placeholder="请输入密码"/>
+
+                <p class="header">Confirm Password</p>
+                <input type="password" name="password" class="confirm-password" placeholder="请确认密码"/>
+
+                <p class="form-msg"></p>
+                <input type="submit" class="register" value="Register"/>
+            </form>
+        </div>
+    </div>
+</div>
+<script src='js/login/jquery.min.js'></script>
+<script src="js/login/index.js"></script>
+</body>
+</html>

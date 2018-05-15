@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhp.jewhone.dao.user.UserMapper">
+    <resultMap id="BaseResultMap" type="com.zhp.jewhone.model.user.User">
+
+        <id column="user_id" jdbcType="INTEGER" property="userId"/>
+        <result column="account" jdbcType="VARCHAR" property="account"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
+        <result column="state" jdbcType="SMALLINT" property="state"/>
+        <result column="account_type" jdbcType="INTEGER" property="accountType"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+    </resultMap>
+
+    <!--查询全部用户-->
+    <select id="selectAll" resultType="com.zhp.jewhone.model.user.User">
+        SELECT
+            user_id      AS userId,
+            account,
+            password,
+            state,
+            account_type AS accountType,
+            update_time  AS updateTime,
+            create_time  AS createTime
+        FROM t_user
+    </select>
+
+    <!--添加用户-->
+    <insert id="addUser" parameterType="com.zhp.jewhone.model.user.RegCondition">
+        INSERT INTO t_user (username,account,email, password, state, account_type, update_time, create_time)
+        VALUES (#{username},#{account},#{email}, #{registerPwd}, 0, #{accountType}, NOW(), NOW())
+    </insert>
+
+    <select id="queryUserByAccount" resultType="com.zhp.jewhone.model.user.User">
+        SELECT
+            user_id      AS userId,
+            account,
+            password,
+            state,
+            account_type AS accountType,
+            update_time  AS updateTime,
+            create_time  AS createTime
+        FROM t_user
+        WHERE account = #{account}
+    </select>
+
+</mapper>
